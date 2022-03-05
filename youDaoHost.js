@@ -14,7 +14,7 @@ Element.prototype.addEventListener = function () {
     };
   return this._addEventListener(...args);
 };
-
+//以上是重写isTrusted
 let aALL= document.querySelector(".sp.dictvoice.voice-js.log-js");
 setInterval((aALL) => {
      aALL.click();
